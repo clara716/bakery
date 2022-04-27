@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="none">
+        <meta name="description" content="Toronto's best bakery provides a wide selection of fresh breads and desserts every day">
+        <meta name="author" content="Songyao Zhang">
+        <title>Bob's Bakery</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&family=Rowdies&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header><!--header is flex container, h1 and nav are flex items-->
+            <h1>Bob's Bakery</h1>
+            <nav>
+                <ul> <!--ul is flex container; li are flex items-->
+                    <li><a href="bakery.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="design-rationale.html">Design Rationale</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="tagline-text">
+                <h1>The Best Bakery in Toronto</h1>
+                <p>Serving the GTA Since 1980</p>
+                <a class="button" href="contact.html">Contact Us</a>
+            </div>     
+        </main>
+
+        <div class="container">
+            <div class="about"><!--.about is flex container, section and img are flex items-->
+                <section>
+                    <h2>About Us</h2>
+                    <p>We are a company that primarily specializes in bread among other things. We cater to many banquet halls, restaurants and grocery stores across the GTA. and have been doing so successfully for over 40 years! </p>
+                    <p>We spend a large amount time in bakeries, and indulge in our own creations as well as other desserts in the city. We continue to grow every year with the dedication of our workers and most importantly with you, our customers.</p>
+                </section>
+                <img src="img/baker.jpg" alt="baker" width="768" height="960" title="baker">
+            </div><!--about end-->
+
+            <div class="reason-container">
+                <h2>What Makes Us the Best</h2>
+                <div class="best-reason"><!--.best-reason is flex container,4 div inside are flex items-->
+                    <div class="reason">
+                        <h3>Passionate</h3>
+                        <p>The secret behind our delicious cake is our passion for baking heavenly cakes.</p>
+                    </div>
+                    <div class="reason">
+                        <h3>Customized</h3>
+                        <p>We take customized cake orders. Share your ideas with us and get your cake ready.</p>
+                    </div>
+                    <div class="reason">
+                        <h3>Quality</h3>
+                        <p>We choose the finest and freshest ingredients, sourced locally.</p>
+                    </div>
+                    <div class="reason">
+                        <h3>Affordable</h3>
+                        <p>Be it customized or a normal cake, we offer at extremely reasonable prices.</p>
+                    </div>
+                </div>
+            </div><!--best reason end-->
+
+            <div class="gallery-container">
+                <h2>Our Featured Products</h2>
+                <div class="gallery"><!--gallery is flex container, top and bottom are flex items-->
+                    <div class="top">
+                        <img src="img/gallery/cake.jpg" alt="cake" width="1920" height="2880" title="cake">
+                        <img src="img/gallery/bread.jpg" alt="bread" width="1920" height="2880" title="bun">
+                        <img src="img/gallery/cupcake.jpg" alt="cupcake" width="1920" height="2880" title="cupcake">
+                        <img src="img/gallery/slice-bread.jpg" alt="slice bread" width="1920" height="2880" title="sliced-bread">
+                    </div>
+                    <div class="bottom">
+                        <img src="img/gallery/cookie.jpg" alt="cookie" width="1920" height="2880" title="cookie">
+                        <img src="img/gallery/pie.jpg" alt="pie" width="1920" height="2880" title="pie">
+                        <img src="img/gallery/donut.jpg" alt="donut" width="1920" height="2880" title="donut">
+                        <img src="img/gallery/macaron.jpg" alt="macaron" width="1920" height="2880" title="macaron">
+                    </div>
+                </div>
+                <a class="button" href="menu.html">Check Our Menu</a>
+            </div><!--gallery container end-->
+
+            <div class="map">
+                <h2>Find Us Here</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d679.854883006396!2d-79.27947311088654!3d43.77027493392204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4d18fd748a693%3A0xb44685526be48ba!2s34%20Progress%20Ave%2C%20Scarborough%2C%20ON%20M1P%202Y4!5e0!3m2!1sen!2sca!4v1644192661065!5m2!1sen!2sca" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+        </div><!--container end-->
+        <footer>
+            <small>&copy; Copyright 2022 Bob's Bakery</small>
+        </footer>
+    </body>
+</html>

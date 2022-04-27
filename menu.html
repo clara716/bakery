@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="none">
+        <meta name="description" content="Menu of Bob's Bakery">
+        <meta name="author" content="Songyao Zhang">
+        <title>Our Menu</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Merriweather&family=Rowdies&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header><!--header is flex container, h1 and nav are flex items-->
+            <h1>Bob's Bakery</h1>
+            <nav>
+                <ul> <!--ul is flex container; li are flex items-->
+                    <li><a href="bakery.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="design-rationale.html">Design Rationale</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="menu-container">
+            <div class="second-menu">
+                <nav>
+                    <ul><!--ul is flex container, 6 li are flex items-->
+                        <li><a href="#bread-anchor">Bread</a></li>
+                        <li><a href="#cake-anchor">Cake</a></li>
+                        <li><a href="#cupcake-anchor">Cupcake</a></li>
+                        <li><a href="#cookie-anchor">Cookie</a></li>
+                        <li><a href="#donut-anchor">Donut</a></li>
+                        <li><a href="#pie-anchor">Pie</a></li>
+                    </ul>
+                </nav>
+            </div><!--second menu end-->
+
+            <div class="product">
+                <div id="bread-anchor"></div>
+                <div id="bread" >
+                    <h2>Bread</h2>
+                    <div class="product-container"><!--product-container is flex container, 4 div inside are flex items-->
+                        <div class="plain-bread">
+                            <img src="img/bread/plain-bread.jpg" alt="plain bread" width="768" height="768">
+                            <p>Plain Bread</p>
+                            <p>$ 0.6</p>
+                        </div>
+                        <div class="italian-bread">
+                            <img src="img/bread/italian-bread.jpg" alt="Italian bread" width="768" height="768">
+                            <p>Italian Bread</p>
+                            <p>$ 0.65</p>
+                        </div>
+                        <div class="corn-bread">
+                            <img src="img/bread/corn.jpg" alt="corn bread" width="768" height="768">
+                            <p>Corn Bread</p>
+                            <p>$0.55</p>
+                        </div>    
+                        <div class="whole-wheat-bread">
+                            <img src="img/bread/whole-wheat.jpg" alt="whole wheat bread" width="768" height="768">
+                            <p>Whole Wheat Bread</p>
+                            <p>$ 0.65</p>
+                        </div>
+                    </div><!--product container end-->
+                </div><!--bread end-->
+
+                <div id="cake-anchor"></div>
+                <div id="cake">
+                    <h2>Cake</h2>
+                    <div class="product-container"><!--product-container is flex container, 6 div inside are flex items-->
+                        <div class="lemon-cake">
+                            <img src="img/cake/cake-lemon.jpg" alt="lemon cake" width="480" height="480">
+                            <p>Lemon Orange</p>
+                            <p>From $65</p>
+                        </div>
+                        <div class="chocolate-pistachio">
+                            <img src="img/cake/chocolate-pistachio.jpg" alt="chocolate pistachio cake" width="480" height="480">
+                            <p>Chocolate Pistachio</p>
+                            <p>From $70</p>
+                        </div>
+                        <div class="peanut-butter">
+                            <img src="img/cake/peanut-butter.jpg" alt="peanut butter cake" width="480" height="480">
+                            <p>Peanut Butter</p>
+                            <p>From $70</p>
+                        </div>
+                        <div class="vanilla-chocolate-chip">
+                            <img src="img/cake/cake-vanilla-chocolate-chip.jpg" alt="vanilla chocolate chip cake" width="480" height="480">
+                            <p>Vanilla Chocolate Chip</p>
+                            <p>From $60</p>
+                        </div>    
+                        <div class="chocolate-raspberry">
+                            <img src="img/cake/chocolate-raspberry.jpg" alt="chocolate raspberry cake" width="480" height="480">
+                            <p>Chocolate Raspberry</p>
+                            <p>From $65</p>
+                        </div>
+                        <div class="miniegg">
+                            <img src="img/cake/miniegg.jpg" alt="miniegg cake" width="480" height="480">
+                            <p>Miniegg</p>
+                            <p>From $80</p>
+                        </div>
+                    </div><!--product container end-->
+                </div><!--cake end-->
+                
+                <div id="cupcake-anchor"></div>
+                <div id="cupcake">
+                    <h2>Cupcake</h2>
+                    <div class="product-container"><!--product-container is flex container, 7 div inside are flex items-->
+                        <div class="banana-fudge">
+                            <img src="img/cupcake/banana-caramel-fudge-cupcake.jpg" alt="banana caramel fudge cupcake" width="720" height="720">
+                            <p>Banana Caramel</p>
+                            <p>$ 4.5</p>
+                        </div>
+                        <div class="birthday">
+                            <img src="img/cupcake/birthdaycake.jpg" alt="birthday cupcake" width="720" height="720">
+                            <p>Birthday Special</p>
+                            <p>$ 5</p>
+                        </div>
+                        <div class="velvet">
+                            <img src="img/cupcake/chocolate-red-velvet.jpg" alt="red velvet cupcake" width="720" height="720">
+                            <p>Red Velvet</p>
+                            <p>$5.5</p>
+                        </div>
+                        <div class="pumpkin">
+                            <img src="img/cupcake/pumpkin-spice-cupcake.jpg" alt="pumpkin cupcake" width="720" height="720">
+                            <p>Pumpkin Spice</p>
+                            <p>$ 6.5</p>
+                        </div>    
+                        <div class="coconut">
+                            <img src="img/cupcake/coconut-caramel.jpg" alt="coconut caramel cupcake" width="720" height="720">
+                            <p>Coconut Caramel</p>
+                            <p>$ 6</p>
+                        </div>
+                        <div class="banana-nutella">
+                            <img src="img/cupcake/banananutella.jpg" alt="banana nutella cupcake" width="720" height="720">
+                            <p>Banana Nutella</p>
+                            <p>$ 5.5</p>
+                        </div>     
+                        <div class="raspberry-cheesecake">
+                            <img src="img/cupcake/raspberry-cheesecake.jpg" alt="raspberry cheesecake cupcake" width="720" height="720">
+                            <p>Raspberry Cheesecake</p>
+                            <p>$ 5.5</p>
+                        </div>          
+                    </div><!--product container end-->
+                </div><!--cupcake end-->
+
+                <div id="cookie-anchor"></div>
+                <div id="cookie">
+                    <h2>Cookie</h2>
+                    <div class="product-container"><!--product-container is flex container, 4 div inside are flex items-->
+                        <div class="double-chocolate">
+                            <img src="img/cookie/double-chocolate.jpg" alt="double chocolate cookie" width="720" height="719">
+                            <p>Double Chocolate</p>
+                            <p>$ 2.5</p>
+                        </div>
+                        <div class="peanut-butter">
+                            <img src="img/cookie/peanut-butter.jpg" alt="peanut butter cookie" width="720" height="720">
+                            <p>Peanut Butter</p>
+                            <p>$ 2</p>
+                        </div>
+                        <div class="chocolate-chip">
+                            <img src="img/cookie/chocolate-chip.jpg" alt="chocolate chip cookie" width="720" height="720">
+                            <p>Chocolate Chip</p>
+                            <p>$ 2</p>
+                        </div>
+                        <div class="oatmeal-raisin">
+                            <img src="img/cookie/oatmeal-raisin-cookie.jpg" alt="oatmeal raisin cookie" width="720" height="720">
+                            <p>Oatmeal Raisin</p>
+                            <p>$ 2.5</p>
+                        </div>                          
+                    </div><!--product container end-->
+                </div><!--cookie end-->
+
+                <div id="donut-anchor"></div>
+                <div id="donut">
+                    <h2>Donut</h2>
+                    <div class="product-container"><!--product-container is flex container, 5 div inside are flex items-->
+                        <div class="chocolate-dip">
+                            <img src="img/donut/chocolate-dip.jpg" alt="chocolate dip donut" width="1468" height="1468">
+                            <p>Chocolate Dip</p>
+                            <p>$ 2.5</p>
+                        </div>
+                        <div class="sugar">
+                            <img src="img/donut/sugar-cream.jpg" alt="sugar cream donut" width="1512" height="1512">
+                            <p>Sugar Cream</p>
+                            <p>$ 2</p>
+                        </div>
+                        <div class="chocolate-sprinkle">
+                            <img src="img/donut/chocolate-sprinkle.jpg" alt="chocolate sprinkle donut" width="1468" height="1468">
+                            <p>Chocolate Sprinkle</p>
+                            <p>$ 2.2</p>
+                        </div>
+                        <div class="coconut-fill">
+                            <img src="img/donut/coconut.jpg" alt="coconut fill donut" width="2069" height="2069">
+                            <p>Coconut Filled</p>
+                            <p>$ 2.5</p>
+                        </div> 
+                        <div class="blueberry">
+                            <img src="img/donut/blueberry.jpg" alt="blueberry donut" width="2110" height="2110">
+                            <p>Blueberry Cream</p>
+                            <p>$ 2.8</p>
+                        </div>                          
+                    </div><!--product container end-->
+                </div><!--donut end-->
+
+                <div id="pie-anchor"></div>
+                <div id="pie">
+                    <h2>Pie</h2>
+                    <div class="product-container"><!--product-container is flex container, 4 div inside are flex items-->
+                        <div class="apple-pie">
+                            <img src="img/pie/apple.jpg" alt="apple pie" width="720" height="720">
+                            <p>Apple</p>
+                            <p>$ 25</p>
+                        </div>
+                        <div class="Oreo">
+                            <img src="img/pie/oreo.jpg" alt="oreo pie" width="720" height="720">
+                            <p>Oreo Cookie</p>
+                            <p>$ 27</p>
+                        </div>
+                        <div class="cherry">
+                            <img src="img/pie/cherry.jpg" alt="cherry pie" width="720" height="720">
+                            <p>Cherry</p>
+                            <p>$ 26</p>
+                        </div>
+                        <div class="lime">
+                            <img src="img/pie/lime.jpg" alt="lime pie" width="720" height="720">
+                            <p>Lime</p>
+                            <p>$ 21</p>
+                        </div> 
+                        <div class="pecan">
+                            <img src="img/pie/pecan.jpg" alt="pecan pie" width="360" height="360">
+                            <p>Pecan</p>
+                            <p>$ 30</p>
+                        </div>                          
+                    </div><!--product container end-->
+                </div><!--pie end-->
+                <div class="customize">
+                    <img src="img/customize.jpg" alt="customized macarons" width="1920" height="1280">
+                    <h3>We Do Customize !</h3>
+                    <p>Contact us today and let us satisfy your sweet tooth.</p>
+                    <a class="button" href="contact.html">Contact Now</a>
+                </div>
+            </div><!--product end-->
+        </div><!--menu container end-->
+        <footer>
+            <small>&copy; Copyright 2022 Bob's Bakery</small>
+        </footer>
+    </body>
+</html>
